@@ -5,7 +5,7 @@ def transform (df):
     print("Transforming data....")
     df.columns = map(str.lower, df.columns)
 
-# Convert all data in the value field to numeric and all invalid string to NAN
+# Convert all data in the value field to numeric and all invalid string to 0
     if "value" in df.columns:
         df['value'] = pd.to_numeric(df['value'], errors='coerce').fillna(0)
 
