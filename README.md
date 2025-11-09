@@ -1,6 +1,6 @@
 # Dockerized ETL project
 
-### A simple Extract, Transform, Load (ETL) pipeline built project that demonstrates how to build and run an end-to-end ETL pipelinee with isolated servics for the database and pipeline, connected via Docker networking with:
+### A simple Extract, Transform, Load (ETL) pipeline built project that demonstrates how to build and run an end-to-end ETL pipeline with isolated services for the database and pipeline, connected via Docker networking with:
   * Python - data extraction, transformation, and loading logic
   * Postgres - database for storing transformed data
   * Docker & Docker Compose - containerized and reproducible environment
@@ -9,9 +9,9 @@
   * Python 
   * Postgres
   * Docker
-  * Dbeaveer or any SQL client to connect and inspect the database
+  * Postgres client to connect and inspect the database
 
-### Step by step on how to run the pipeline:
+### Step-by-step on how to run the pipeline:
   ### Clone the repository
   * git clone [Repository](https://github.com/Ayomi-tech/dockerized-etl-project.git)
   * cd etl-docker-project
